@@ -5,3 +5,29 @@ section.turns-bg-img {
 .footer-container {
     background-color: aqua;
 }
+.navbar-nav .nav-item .nav-link.active{
+    text-decoration: underline;
+}
+.navbar {
+    background-color: aqua;
+}
+
+.img-fluid {
+    width:100%;
+    z-index: 10; 
+}
+    
+.text-over-img {
+    z-index:100;
+    font-size: 18em;
+    margin-top: -100px;
+}
+
+.carousel-caption {
+    color: black;
+    bottom: 60rem;
+    text-align: left;
+    font-size: 50px;
+    width: 30%;
+    left: 5%
+}
