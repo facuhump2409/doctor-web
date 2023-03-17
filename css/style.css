@@ -5,20 +5,22 @@ section.turns-bg-img {
 .footer-container {
     background-color: aqua;
 }
-.navbar-nav .nav-item .nav-link.active{
+
+.navbar-nav .nav-item .nav-link.active {
     text-decoration: underline;
 }
+
 .navbar {
     background-color: aqua;
 }
 
 .img-fluid {
-    width:100%;
-    z-index: 10; 
+    width: 100%;
+    z-index: 10;
 }
-    
+
 .text-over-img {
-    z-index:100;
+    z-index: 100;
     font-size: 18em;
     margin-top: -100px;
 }
@@ -30,4 +32,34 @@ section.turns-bg-img {
     font-size: 50px;
     width: 30%;
     left: 5%
+}
+
+.centered-left {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 26%;
+    font-size: 50px;
+}
+.lower-text {
+    top: 27%;
+}
+.container-own {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+@media (max-width: 768px) {
+    .centered-left {
+        visibility: hidden;
+    }
+}
+.image-inner-text {
+    text-align: left;
+}
+
+.buttom-left {
+    position: absolute;
+    top: 60%;
+    left: 10%;
 }
