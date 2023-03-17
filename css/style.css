@@ -3,7 +3,7 @@ section.turns-bg-img {
 }
 
 .footer-container {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -38,7 +38,7 @@ section.turns-bg-img {
     position: absolute;
     top: 20%;
     left: 10%;
-    width: 26%;
+    width: 30%;
     font-size: 50px;
 }
 .lower-text {
@@ -62,4 +62,24 @@ section.turns-bg-img {
     position: absolute;
     top: 60%;
     left: 10%;
+}
+
+.container-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.items-logo {
+    border-radius: 10%;
+    background-color: rgb(233, 233, 233);
+}
+.container-item-border {
+    border: 1px solid black ;
+    border-radius: 10%;
+    /* margin-left: 1px;
+    margin-right: 1px; */
+}
+
+.logo-direccion {
+    background-color: #E7F4FF;
 }
