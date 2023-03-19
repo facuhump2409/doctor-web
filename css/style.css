@@ -83,3 +83,15 @@ section.turns-bg-img {
 .logo-direccion {
     background-color: #E7F4FF;
 }
+
+.hr-logo {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: end
+}
