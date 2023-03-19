@@ -41,19 +41,17 @@ section.turns-bg-img {
     width: 30%;
     font-size: 50px;
 }
+
 .lower-text {
     top: 27%;
 }
+
 .container-own {
     position: relative;
     text-align: center;
     color: black;
 }
-@media (max-width: 768px) {
-    .centered-left {
-        visibility: hidden;
-    }
-}
+
 .image-inner-text {
     text-align: left;
 }
@@ -73,8 +71,9 @@ section.turns-bg-img {
     border-radius: 10%;
     background-color: rgb(233, 233, 233);
 }
+
 .container-item-border {
-    border: 1px solid black ;
+    border: 1px solid black;
     border-radius: 10%;
     /* margin-left: 1px;
     margin-right: 1px; */
@@ -96,8 +95,58 @@ section.turns-bg-img {
     justify-content: space-around;
     align-items: end
 }
+
 .form-shadow {
     padding: 20px;
     border-radius: 5px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 10px solid black;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.location-data p {
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* .locations-data {
+    background-color: aliceblue;
+} */
+
+.location-data hr {
+    margin-bottom: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .centered-left {
+        visibility: hidden;
+    }
+    .locations-grid {
+        grid-template-columns: 1fr;
+    }
 }
