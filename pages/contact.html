@@ -40,26 +40,47 @@
             </div>
         </div>
     </nav>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1>Contactanos</h1>
+            <p>Dejanos tu consulta medica y nos encargaremos de contactarnos a la brevedad.</p>
+        </div>
+        <form action="./404.html" method="get" class="mt-5 form-shadow text-left">
+            <fieldset>
+                <div class="mb-3">
+                  <label for="textInput" class="form-label">Nombre</label>
+                  <input type="text" id="textInput" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="textInput" class="form-label">Email</label>
+                    <input type="text" id="textInput" class="form-control" placeholder="Email">
+                  </div>
+                <div class="mb-3">
+                  <label for="select-disease" class="form-label">Selecciona el tipo de consulta</label>
+                  <select id="select-disease" class="form-select">
+                    <option>Turnos</option>
+                    <option>Consulta Medica</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Consulta"></textarea>
+                  </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="fieldsetCheck">
+                        <label class="form-check-label" for="fieldsetCheck">
+                            Ya me atendi con el doctor
+                        </label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit btn-lg" class="btn btn-primary">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 
-    <h1>Contactanos</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim autem fugit illum a adipisci unde non omnis alias architecto, iure itaque in suscipit inventore commodi sed exercitationem atque incidunt explicabo?</p>
-
-    <form action="" method="get">
-        <!-- El form esta bien hecho cuando usamos label -->
-        <!--  -->
-        <input type="text" id="nombre" placeholder="Nombre">
-        <!-- FIJARSE COMO HACEr EL MATCH CON EL ID -->
-        <!-- Buena practica la etiqueta label -->
-        <br><br>
-        <input type="email" name="" id="email" required placeholder="Email">
-        <!-- El atributo name es parecido al id -->
-        <br><br>
-        <!-- Campo de texto multilinea -->
-        <label for="mensaje"></label>
-        <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-
-        <input type="submit" value="Enviar">
-    </form>
 
     <footer class="mt-3 logo-direccion">
         <div class="container text-center">
