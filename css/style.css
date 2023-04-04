@@ -46,7 +46,8 @@ section.turns-bg-img {
     top: 27%;
 }
 
-.container-own {
+/* Texto alineado para el container de turno */
+.text-container {
     position: relative;
     text-align: center;
     color: black;
@@ -72,6 +73,7 @@ section.turns-bg-img {
     background-color: rgb(233, 233, 233);
 }
 
+/* Agregamos el box shadow para hacerle el borde */
 .container-item-border {
     border: 1px solid black;
     border-radius: 10%;
@@ -146,6 +148,7 @@ section.turns-bg-img {
     .centered-left {
         visibility: hidden;
     }
+
     .locations-grid {
         grid-template-columns: 1fr;
     }
